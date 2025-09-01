@@ -9,8 +9,11 @@
 ### 🐛 Bug fixes
 
 - Fix Color extension on macOS. ([#39280](https://github.com/expo/expo/pull/39280) by [@gabrieldonadel](https://github.com/gabrieldonadel))
+- Fix ErrorManager not receiving events. ([#39290](https://github.com/expo/expo/pull/39290) by [@behenate](https://github.com/behenate))
 
 ### 💡 Others
+
+- `requireOptionalNativeModule` will now catch errors which occur while requireing a module. ([#39290](https://github.com/expo/expo/pull/39290) by [@behenate](https://github.com/behenate))
 
 ## 3.0.10 — 2025-08-31
 
